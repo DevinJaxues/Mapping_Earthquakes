@@ -170,15 +170,15 @@ function getColor(magnitude) {
             onEachFeature: function(feature, layer) {
               layer.bindPopup("Magnitude: " + feature.properties.mag + "<br>Location: " + feature.properties.place);
             }
-            // 8. Add the major earthquakes layer to the map
-        }).addTo(majorEarthquakes);
-        // 9. Close the braces and parentheses for the major earthquake data.
-        majorEarthquakes.addTo(map);
-    });
+  // 8. Add the major earthquakes layer to the map
+}).addTo(majorEarthquakes);
+// 9. Close the braces and parentheses for the major earthquake data.
+majorEarthquakes.addTo(map);
+});
 
 
 
-  // Here we create a legend control object.
+// Here we create a legend control object.
 let legend = L.control({
   position: "bottomright"
 });
@@ -211,16 +211,16 @@ legend.onAdd = function() {
   legend.addTo(map);
 
   // 3. Use d3.json to make a call to get our Tectonic Plate geoJSON data.
-  d3.json("https://raw.githubusercontent.com/DevinJaxues/Mapping_Earthquakes/main/PB2002_boundaries.json").then(function(data) {
+  d3.json("https://raw.githubusercontent.com/fraxen/tectonicplates/master/GeoJSON/PB2002_boundaries.json").then(function(data) {
     function styleInfo(feature) {
       return {
         opacity: 1,
         fillOpacity: 1,
         fillColor: getColor(feature.properties.mag),
-        color: "#000000",
+        color: "#703606",
         //radius: getRadius(feature.properties.mag),
         //stroke: true,
-        weight: 0.5
+        weight: 0.2
       };
     }
 
