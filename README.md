@@ -18,5 +18,5 @@ Which we get using d3 and the source https://github.com/fraxen/tectonicplates
 
 - And lastly the color legend in the bottom right explains scale of earthquakes which is then visualized on the data points using said colors and size of data dot on the map
 
-![eqmaplite]https://github.com/DevinJaxues/Mapping_Earthquakes/blob/766ba149bf3ecde2e0a770a1314b0e9b6cb7188e/images/eqmaplite.JPG
-![eqmapsat]https://github.com/DevinJaxues/Mapping_Earthquakes/blob/766ba149bf3ecde2e0a770a1314b0e9b6cb7188e/images/eqmapsat.JPG
+![eqmaplite](https://github.com/DevinJaxues/Mapping_Earthquakes/blob/766ba149bf3ecde2e0a770a1314b0e9b6cb7188e/images/eqmaplite.JPG)
+![eqmapsat](https://github.com/DevinJaxues/Mapping_Earthquakes/blob/766ba149bf3ecde2e0a770a1314b0e9b6cb7188e/images/eqmapsat.JPG)
