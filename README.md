@@ -6,7 +6,7 @@
 ---
 ## Overview ##
 ---
-The objective of this project was to create a map that achieved 3 main goals being access to GeoJSON data, interactiveness, and visualize said data.
+The objective of this project was to create a map that achieved 3 main goals being: access to GeoJSON data, interactiveness, and visualize said data.
 
 - I was able to achieve the fetching of the GeoJSON data through the Javascript logic file.
 Which we get using d3 and the source https://github.com/fraxen/tectonicplates
